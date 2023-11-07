@@ -499,7 +499,7 @@ Run 3
 100.000%   37.12ms
 
 
-QPS 1200:
+QPS 1250:
 CPU 95%
 Beyla CPU 7%
 

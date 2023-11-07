@@ -75,4 +75,7 @@ running each scenario 3 times to make sure we can either take average latencies 
 
 The results can be found in the file measurements.txt.
 
-
+Notice that we didn't run the OpenTelemetry Auto Instrumentation scenario with 1250 QPS, because we were
+already out of CPU resources at 1000 QPS. Running beyond 1000 QPS would not be sustainable and the application
+would create a backlog and not be able to achieve the desired QPS. Essentially, we'd get response times
+in seconds instead of the usual millisecond range.
