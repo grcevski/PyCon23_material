@@ -1,0 +1,2 @@
+# Runs Beyla in a mode that listens for processes binding port 8080
+sudo BEYLA_OPEN_PORT=8080 OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://localhost:4317/v1/traces" OTEL_SERVICE_NAME="pingserver-beyla" bin/beyla --config=bin/config.yaml

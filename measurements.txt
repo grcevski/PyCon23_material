@@ -1,0 +1,549 @@
+12th Gen Intel(R) Core(TM) i7-1280P
+2 GHz
+Linux version 6.2.0-36-generic
+
+
+Default:
+
+QPS 250:
+CPU 17%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.00ms    3.97ms  28.22ms   58.02%
+    Req/Sec    12.65     18.31    45.00     67.53%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.90ms
+ 75.000%   11.49ms
+ 90.000%   13.44ms
+ 99.000%   14.96ms
+ 99.900%   20.30ms
+ 99.990%   27.92ms
+ 99.999%   28.24ms
+100.000%   28.24ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.97ms    3.99ms  27.66ms   58.73%
+    Req/Sec    12.66     17.79    41.00     66.32%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.80ms
+ 75.000%   11.37ms
+ 90.000%   13.44ms
+ 99.000%   15.11ms
+ 99.900%   20.14ms
+ 99.990%   27.15ms
+ 99.999%   27.68ms
+100.000%   27.68ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.94ms    3.98ms  28.54ms   58.07%
+    Req/Sec    12.64     18.07    45.00     67.01%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.82ms
+ 75.000%   11.40ms
+ 90.000%   13.34ms
+ 99.000%   15.04ms
+ 99.900%   21.06ms
+ 99.990%   27.22ms
+ 99.999%   28.56ms
+100.000%   28.56ms
+
+
+QPS 500:
+CPU 33%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.68ms    3.91ms  27.84ms   58.18%
+    Req/Sec    25.30     19.11    43.00     63.77%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.59ms
+ 75.000%   11.01ms
+ 90.000%   13.05ms
+ 99.000%   14.99ms
+ 99.900%   18.21ms
+ 99.990%   25.39ms
+ 99.999%   27.85ms
+100.000%   27.85ms
+
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.76ms    3.90ms  27.20ms   58.64%
+    Req/Sec    25.31     18.36    41.00     65.66%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.64ms
+ 75.000%   11.08ms
+ 90.000%   13.12ms
+ 99.000%   14.80ms
+ 99.900%   17.76ms
+ 99.990%   26.01ms
+ 99.999%   27.22ms
+100.000%   27.22ms
+
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.74ms    3.95ms  28.00ms   57.70%
+    Req/Sec    25.32     18.84    43.00     64.44%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.65ms
+ 75.000%   11.12ms
+ 90.000%   13.14ms
+ 99.000%   15.07ms
+ 99.900%   19.68ms
+ 99.990%   26.59ms
+ 99.999%   28.01ms
+100.000%   28.01ms
+
+QPS 1000:
+CPU 70%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.71ms    4.02ms  35.74ms   58.66%
+    Req/Sec    50.65     19.72   111.00     66.90%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.63ms
+ 75.000%   11.06ms
+ 90.000%   13.20ms
+ 99.000%   15.38ms
+ 99.900%   21.58ms
+ 99.990%   33.22ms
+ 99.999%   35.78ms
+100.000%   35.78ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.77ms    3.94ms  38.72ms   57.88%
+    Req/Sec    50.73     19.54    83.00     67.41%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.63ms
+ 75.000%   11.19ms
+ 90.000%   13.14ms
+ 99.000%   14.59ms
+ 99.900%   19.09ms
+ 99.990%   32.65ms
+ 99.999%   38.75ms
+100.000%   38.75ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.47ms    3.95ms  39.87ms   58.19%
+    Req/Sec    50.62     19.81    86.00     70.19%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.31ms
+ 75.000%   10.90ms
+ 90.000%   12.85ms
+ 99.000%   14.61ms
+ 99.900%   19.71ms
+ 99.990%   33.34ms
+ 99.999%   39.90ms
+100.000%   39.90ms
+
+QPS 1250:
+CPU 90%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.55ms    5.64ms  63.14ms   75.09%
+    Req/Sec    63.32     19.47   115.00     63.39%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.02ms
+ 75.000%   11.86ms
+ 90.000%   14.08ms
+ 99.000%   29.92ms
+ 99.900%   44.70ms
+ 99.990%   54.40ms
+ 99.999%   60.77ms
+100.000%   63.17ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.84ms    4.62ms  47.49ms   64.19%
+    Req/Sec    63.38     19.95   115.00     61.55%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.50ms
+ 75.000%   11.21ms
+ 90.000%   13.42ms
+ 99.000%   19.87ms
+ 99.900%   39.78ms
+ 99.990%   46.53ms
+ 99.999%   47.23ms
+100.000%   47.52ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.97ms    4.38ms  48.83ms   62.18%
+    Req/Sec    63.32     18.97   115.00     65.20%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.74ms
+ 75.000%   11.39ms
+ 90.000%   13.57ms
+ 99.000%   15.69ms
+ 99.900%   33.79ms
+ 99.990%   45.47ms
+ 99.999%   48.54ms
+100.000%   48.86ms
+
+
+OTel Python Autoinstrumentation:
+
+QPS 250:
+CPU 23%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    10.70ms    5.48ms  39.62ms   58.94%
+    Req/Sec    12.47     14.25    32.00     67.34%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   10.59ms
+ 75.000%   15.27ms
+ 90.000%   17.95ms
+ 99.000%   21.42ms
+ 99.900%   29.33ms
+ 99.990%   39.55ms
+ 99.999%   39.65ms
+100.000%   39.65ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    10.66ms    5.49ms  32.80ms   59.48%
+    Req/Sec    12.52     14.25    32.00     66.58%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   10.47ms
+ 75.000%   15.23ms
+ 90.000%   17.84ms
+ 99.000%   21.61ms
+ 99.900%   31.23ms
+ 99.990%   32.43ms
+ 99.999%   32.83ms
+100.000%   32.83ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    10.72ms    5.44ms  31.95ms   58.83%
+    Req/Sec    12.51     14.17    31.00     67.77%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   10.69ms
+ 75.000%   15.30ms
+ 90.000%   17.84ms
+ 99.000%   21.12ms
+ 99.900%   30.93ms
+ 99.990%   31.82ms
+ 99.999%   31.97ms
+100.000%   31.97ms
+
+QPS 500:
+CPU 50%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    10.98ms    6.08ms  63.52ms   64.72%
+    Req/Sec    24.91      9.20    60.00     88.09%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   10.77ms
+ 75.000%   15.54ms
+ 90.000%   18.09ms
+ 99.000%   29.18ms
+ 99.900%   50.75ms
+ 99.990%   59.20ms
+ 99.999%   63.55ms
+100.000%   63.55ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    10.78ms    5.75ms  70.98ms   62.15%
+    Req/Sec    25.00     10.25    64.00     85.75%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   10.75ms
+ 75.000%   15.30ms
+ 90.000%   17.82ms
+ 99.000%   26.91ms
+ 99.900%   35.29ms
+ 99.990%   60.42ms
+ 99.999%   71.04ms
+100.000%   71.04ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    10.64ms    5.72ms  55.52ms   61.42%
+    Req/Sec    25.00      9.91    62.00     86.55%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   10.49ms
+ 75.000%   15.18ms
+ 90.000%   17.81ms
+ 99.000%   25.84ms
+ 99.900%   33.85ms
+ 99.990%   49.02ms
+ 99.999%   55.55ms
+100.000%   55.55ms
+
+QPS 1000:
+CPU 95%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    43.06ms   47.24ms 352.26ms   88.33%
+    Req/Sec    49.83      7.36    67.00     76.96%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   27.15ms
+ 75.000%   55.62ms
+ 90.000%   98.56ms
+ 99.000%  230.91ms
+ 99.900%  316.42ms
+ 99.990%  341.50ms
+ 99.999%  350.21ms
+100.000%  352.51ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    32.72ms   28.94ms 217.34ms   80.27%
+    Req/Sec    49.83      8.47    72.00     78.21%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   24.17ms
+ 75.000%   45.50ms
+ 90.000%   70.33ms
+ 99.000%  139.13ms
+ 99.900%  185.98ms
+ 99.990%  207.87ms
+ 99.999%  217.47ms
+100.000%  217.47ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    37.90ms   31.81ms 220.54ms   75.22%
+    Req/Sec    49.72      7.25    70.00     71.62%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%   29.90ms
+ 75.000%   53.98ms
+ 90.000%   80.70ms
+ 99.000%  143.49ms
+ 99.900%  186.88ms
+ 99.990%  212.99ms
+ 99.999%  220.67ms
+100.000%  220.67ms
+
+
+Default + Beyla
+
+QPS 250:
+CPU 17%
+Beyla CPU 2%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.23ms    4.23ms  24.10ms   58.80%
+    Req/Sec    12.64     17.63    41.00     65.98%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.05ms
+ 75.000%   11.72ms
+ 90.000%   14.00ms
+ 99.000%   16.34ms
+ 99.900%   19.90ms
+ 99.990%   24.09ms
+ 99.999%   24.11ms
+100.000%   24.11ms
+
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.15ms    4.08ms  27.28ms   58.39%
+    Req/Sec    12.64     17.40    40.00     65.41%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.02ms
+ 75.000%   11.71ms
+ 90.000%   13.72ms
+ 99.000%   15.56ms
+ 99.900%   20.17ms
+ 99.990%   26.66ms
+ 99.999%   27.30ms
+100.000%   27.30ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.11ms    4.18ms  25.92ms   58.42%
+    Req/Sec    12.65     17.73    41.00     66.20%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.98ms
+ 75.000%   11.74ms
+ 90.000%   13.79ms
+ 99.000%   15.85ms
+ 99.900%   21.74ms
+ 99.990%   25.39ms
+ 99.999%   25.93ms
+100.000%   25.93ms
+
+QPS 500:
+CPU 33%
+Beyla CPU 4%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.30ms    4.15ms  26.62ms   58.41%
+    Req/Sec    25.32     18.42    41.00     65.51%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.26ms
+ 75.000%   11.86ms
+ 90.000%   13.93ms
+ 99.000%   16.30ms
+ 99.900%   19.02ms
+ 99.990%   26.24ms
+ 99.999%   26.64ms
+100.000%   26.64ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.16ms    4.11ms  26.62ms   58.36%
+    Req/Sec    25.32     18.16    76.00     66.14%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.02ms
+ 75.000%   11.71ms
+ 90.000%   13.77ms
+ 99.000%   15.59ms
+ 99.900%   18.09ms
+ 99.990%   25.82ms
+ 99.999%   26.64ms
+100.000%   26.64ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.89ms    4.05ms  25.74ms   57.71%
+    Req/Sec    25.30     18.99    45.00     64.11%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.83ms
+ 75.000%   11.40ms
+ 90.000%   13.43ms
+ 99.000%   15.32ms
+ 99.900%   19.52ms
+ 99.990%   24.66ms
+ 99.999%   25.76ms
+100.000%   25.76ms
+
+QPS 1000:
+CPU 72%
+Beyla CPU 6%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.79ms    4.29ms  41.54ms   58.26%
+    Req/Sec    50.64     19.78    86.00     68.05%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.54ms
+ 75.000%   11.42ms
+ 90.000%   13.63ms
+ 99.000%   16.02ms
+ 99.900%   21.76ms
+ 99.990%   33.89ms
+ 99.999%   41.57ms
+100.000%   41.57ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.20ms    4.32ms  35.14ms   58.36%
+    Req/Sec    50.66     19.61    83.00     67.10%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.03ms
+ 75.000%   11.78ms
+ 90.000%   14.10ms
+ 99.000%   16.69ms
+ 99.900%   18.67ms
+ 99.990%   29.73ms
+ 99.999%   35.17ms
+100.000%   35.17ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.91ms    4.20ms  37.09ms   58.41%
+    Req/Sec    50.68     19.69    86.00     66.58%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.80ms
+ 75.000%   11.43ms
+ 90.000%   13.72ms
+ 99.000%   15.50ms
+ 99.900%   20.70ms
+ 99.990%   32.83ms
+ 99.999%   37.12ms
+100.000%   37.12ms
+
+
+QPS 1200:
+CPU 95%
+Beyla CPU 7%
+
+Run 1
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.67ms    6.09ms  74.69ms   76.53%
+    Req/Sec    63.30     18.14   115.00     66.19%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    7.99ms
+ 75.000%   12.09ms
+ 90.000%   14.41ms
+ 99.000%   30.42ms
+ 99.900%   45.98ms
+ 99.990%   62.59ms
+ 99.999%   71.74ms
+100.000%   74.75ms
+
+Run 2
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.98ms    6.01ms  77.57ms   76.23%
+    Req/Sec    63.22     17.38   115.00     71.24%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.44ms
+ 75.000%   12.41ms
+ 90.000%   14.76ms
+ 99.000%   30.54ms
+ 99.900%   49.02ms
+ 99.990%   67.46ms
+ 99.999%   75.52ms
+100.000%   77.63ms
+
+Run 3
+
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     8.89ms    6.36ms  78.08ms   79.71%
+    Req/Sec    63.12     16.16   111.00     75.55%
+  Latency Distribution (HdrHistogram - Recorded Latency)
+ 50.000%    8.17ms
+ 75.000%   12.27ms
+ 90.000%   14.53ms
+ 99.000%   31.47ms
+ 99.900%   54.08ms
+ 99.990%   68.93ms
+ 99.999%   76.35ms
+100.000%   78.14ms

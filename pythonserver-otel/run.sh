@@ -1,0 +1,2 @@
+# Using 3 worker threads for a single core as recommended by https://docs.gunicorn.org/en/stable/design.html#how-many-workers
+taskset -c 0 opentelemetry-instrument --metrics_exporter none --traces_exporter otlp --exporter_otlp_endpoint http://localhost:4317 --service_name pingserver gunicorn -w 3 -b 0.0.0.0:8080 main:app
